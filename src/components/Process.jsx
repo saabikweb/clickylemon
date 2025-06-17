@@ -1,5 +1,6 @@
 import React from 'react'
 import './Process.css'
+import { FaRegHandshake, FaComments, FaCreditCard, FaPaintBrush, FaRegStar } from 'react-icons/fa6'
 
 const Process = () => {
   const steps = [
@@ -7,31 +8,31 @@ const Process = () => {
       number: '01',
       title: 'Say Hello',
       description: 'You simply reach out to us via email with your request — quick, easy, friendly.',
-      icon: '👋'
+      icon: <FaRegHandshake />
     },
     {
       number: '02',
       title: 'Discuss Your Project',
       description: 'We discuss your video topic, style preferences, pricing details, and delivery timeline together.',
-      icon: '💬'
+      icon: <FaComments />
     },
     {
       number: '03',
       title: 'Confirm & Pay',
       description: 'Once everything\'s confirmed, you securely send the payment to officially get started.',
-      icon: '💳'
+      icon: <FaCreditCard />
     },
     {
       number: '04',
       title: 'We Start Designing',
       description: 'We design a bold, high-impact thumbnail that grabs attention and drives results fast.',
-      icon: '🎨'
+      icon: <FaPaintBrush />
     },
     {
       number: '05',
       title: 'Revisions (If Needed)',
       description: 'Need small tweaks? We\'ll adjust the thumbnail quickly until you\'re fully satisfied.',
-      icon: '✨'
+      icon: <FaRegStar />
     }
   ]
 

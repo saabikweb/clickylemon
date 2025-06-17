@@ -16,13 +16,13 @@ const Portfolio = () => {
   ]
 
   const thumbnails = [
-    { id: 1, category: 'Mixed', image: '/assets/thumb1.jpg' },
-    { id: 2, category: 'Gaming', image: '/assets/thumb2.jpg' },
-    { id: 3, category: 'Business', image: '/assets/thumb3.jpg' },
-    { id: 4, category: 'Mixed', image: '/assets/thumb1.jpg' },
-    { id: 5, category: 'Sport', image: '/assets/thumb2.jpg' },
-    { id: 6, category: 'Finance', image: '/assets/thumb3.jpg' },
-    { id: 7, category: 'Podcast', image: '/assets/thumb1.jpg' },
+    { id: 1, category: 'Mixed', image: './assets/works/1.png' },
+    { id: 2, category: 'Gaming', image: './assets/works/2.png' },
+    { id: 3, category: 'Business', image: './assets/works/3.png' },
+    { id: 4, category: 'Mixed', image: './assets/works/4.png' },
+    { id: 5, category: 'Sport', image: './assets/works/5.png' },
+    { id: 6, category: 'Finance', image: './assets/works/6.png' },
+    { id: 7, category: 'Podcast', image: './assets/works/1.png' },
     { id: 8, category: 'AI', image: '/assets/thumb2.jpg' },
     { id: 9, category: 'Celebrities', image: '/assets/thumb3.jpg' },
     { id: 10, category: 'Mixed', image: '/assets/thumb1.jpg' },
