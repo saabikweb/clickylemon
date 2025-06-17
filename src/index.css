@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 80px; /* Account for fixed navbar */
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #0a0a0a;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+  color: #0a0a0a;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #0a0a0a;
+}
+
+/* Lemon theme accent colors */
+:root {
+  --lemon-primary: #FFD700;
+  --lemon-secondary: #FFA500;
+  --lemon-accent: #FF6B35;
+  --lemon-green: #32CD32;
+  --lemon-green-dark: #228B22;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
