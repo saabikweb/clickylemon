@@ -21,16 +21,16 @@ const Hero = () => {
           </div>
           <div className="hero-visual">
             <div className="floating-thumbnail">
-              <img src="/assets/hero-thumb-1.png" alt="Sample Thumbnail" />
+              <img src="./assets/hero-thumb-1.png" alt="Sample Thumbnail" />
             </div>
             <div className="floating-thumbnail delay-1">
-              <img src="/assets/hero-thumb-2.png" alt="Sample Thumbnail" />
+              <img src="./assets/hero-thumb-2.png" alt="Sample Thumbnail" />
             </div>
             <div className="floating-thumbnail delay-2">
-              <img src="/assets/hero-thumb-3.png" alt="Sample Thumbnail" />
+              <img src="./assets/hero-thumb-3.png" alt="Sample Thumbnail" />
             </div>
             <div className="floating-thumbnail delay-3">
-              <img src="/assets/hero-thumb-4.png" alt="Sample Thumbnail" />
+              <img src="./assets/hero-thumb-4.png" alt="Sample Thumbnail" />
             </div>
           </div>
         </div>
