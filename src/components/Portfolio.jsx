@@ -16,7 +16,7 @@ const Portfolio = () => {
   ]
 
   const thumbnails = [
-    { id: 1, category: 'Mixed', image: './assets/works/1.png' },
+    { id: 1, category: 'Mixed', image: 'public/assets/hero-thumb-1.png' },
     { id: 2, category: 'Gaming', image: './assets/works/2.png' },
     { id: 3, category: 'Business', image: './assets/works/3.png' },
     { id: 4, category: 'Mixed', image: './assets/works/4.png' },
