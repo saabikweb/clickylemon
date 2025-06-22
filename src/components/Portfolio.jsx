@@ -16,18 +16,22 @@ const Portfolio = () => {
   ]
 
   const thumbnails = [
-    { id: 1, category: 'Mixed', image: 'public/assets/hero-thumb-1.png' },
-    { id: 2, category: 'Gaming', image: './assets/works/2.png' },
-    { id: 3, category: 'Business', image: './assets/works/3.png' },
-    { id: 4, category: 'Mixed', image: './assets/works/4.png' },
-    { id: 5, category: 'Sport', image: './assets/works/5.png' },
-    { id: 6, category: 'Finance', image: './assets/works/6.png' },
-    { id: 7, category: 'Podcast', image: './assets/works/1.png' },
-    { id: 8, category: 'AI', image: '/assets/thumb2.jpg' },
-    { id: 9, category: 'Celebrities', image: '/assets/thumb3.jpg' },
-    { id: 10, category: 'Mixed', image: '/assets/thumb1.jpg' },
-    { id: 11, category: 'Gaming', image: '/assets/thumb2.jpg' },
-    { id: 12, category: 'Business', image: '/assets/thumb3.jpg' }
+    { id: 1, category: 'Sport', image: './assets/1.png' },
+    { id: 2, category: 'Sport', image: './assets/works/2.png' },
+    { id: 3, category: 'Sport', image: './assets/works/3.png' },
+    { id: 4, category: 'Sport', image: './assets/works/4.png' },
+    { id: 5, category: 'Mixed', image: './assets/works/5.png' },
+    { id: 6, category: 'Celebrities', image: './assets/works/6.png' },
+    { id: 7, category: 'Sport', image: './assets/works/7.png' },
+    { id: 8, category: 'Sport', image: '/assets/8.png' },
+    { id: 9, category: 'Sport', image: '/assets/9.png' },
+    { id: 10, category: 'Sport', image: '/assets/10.png' },
+    { id: 11, category: 'Sport', image: '/assets/11.png' },
+    { id: 12, category: 'Sport', image: '/assets/12.png'},
+    { id: 13, category: 'Sport', image: '/assets/13.png'},
+    { id: 14, category: 'Sport', image: '/assets/14.png'},
+    { id: 15, category: 'Sport', image: '/assets/15.png'},
+    { id: 16, category: 'Sport', image: '/assets/16.png'}
   ]
 
   const filteredThumbnails = activeCategory === 'Mixed' 

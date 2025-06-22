@@ -46,7 +46,7 @@ const Contact = () => {
                 <span className="method-icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p>contact@clickylemon.com</p>
+                  <p>mohammedshaabik@gmail.com</p>
                 </div>
               </div>
               
@@ -70,7 +70,7 @@ const Contact = () => {
             <div className="social-links">
               <h4>Follow Us</h4>
               <div className="social-icons">
-                <a href="#" className="social-link">
+                <a href="https://www.instagram.com/clicky.lemon" className="social-link">
                   <span>📷</span> Instagram
                 </a>
                 <a href="#" className="social-link">
