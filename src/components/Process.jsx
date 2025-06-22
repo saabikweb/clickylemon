@@ -1,6 +1,7 @@
 import React from 'react'
 import './Process.css'
-import { FaRegHandshake, FaComments, FaCreditCard, FaPaintBrush, FaRegStar } from 'react-icons/fa6'
+import { FaRegHandshake, FaComments, FaCreditCard, FaRegStar } from 'react-icons/fa6'
+import { FaBrush } from 'react-icons/fa'
 
 const Process = () => {
   const steps = [
@@ -26,7 +27,7 @@ const Process = () => {
       number: '04',
       title: 'We Start Designing',
       description: 'We design a bold, high-impact thumbnail that grabs attention and drives results fast.',
-      icon: <FaPaintBrush />
+      icon: <FaBrush />
     },
     {
       number: '05',
